@@ -13,7 +13,7 @@ const Index = () => {
       title: "Temperature",
       value: "37.2°C",
       target: "37.0°C",
-      status: "optimal",
+      status: "optimal" as const,
       icon: Thermometer,
       trend: "+0.1"
     },
@@ -21,7 +21,7 @@ const Index = () => {
       title: "pH Level",
       value: "7.15",
       target: "7.0-7.4",
-      status: "optimal",
+      status: "optimal" as const,
       icon: Droplets,
       trend: "+0.05"
     },
@@ -29,7 +29,7 @@ const Index = () => {
       title: "Dissolved O₂",
       value: "85%",
       target: ">80%",
-      status: "optimal",
+      status: "optimal" as const,
       icon: Activity,
       trend: "-2%"
     },
@@ -37,7 +37,7 @@ const Index = () => {
       title: "Agitation",
       value: "150 RPM",
       target: "150 RPM",
-      status: "optimal",
+      status: "optimal" as const,
       icon: Activity,
       trend: "0"
     }
